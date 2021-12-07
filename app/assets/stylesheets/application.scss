@@ -14,4 +14,49 @@
  *= require_self
  */
 
-.has-bg-img { background: asset_url('logo-data.png') center center; background-size:cover; }
+.has-bg-img { 
+    background: asset_url('logo-data.png') center center; 
+    background-size: cover; 
+}
+
+.has-bg-img2 {
+    background: asset_url('apresentacao-no-name.png') center center; 
+    background-size: cover;
+    vertical-align: bottom;
+    padding-top: 120px;
+    padding-right: 50px;
+    text-align: right;
+    min-height: 220px;
+    color: #fff;
+    background-color: #e15554;
+}
+
+.has-bg-img3 {
+    background: asset_url('programacao.png') center center; 
+    background-size: cover;
+    vertical-align: bottom;
+    padding-top: 120px;
+    padding-right: 50px;
+    text-align: right;
+    min-height: 220px;
+    color: #fff;
+    background-color: #e15554;
+}
+
+
+@media (max-width: 600px) {
+    .has-bg-img2 {
+        background: asset_url('apresentacao-no-name.png') center center; 
+        background-size: cover;
+        vertical-align: bottom;
+        padding-top: 120px;
+        padding-right: 50px;
+        text-align: right;
+        color: #fff;
+        background-color: #e15554;
+
+        h1 {
+            font-size: 42px;
+        }
+    }
+}
