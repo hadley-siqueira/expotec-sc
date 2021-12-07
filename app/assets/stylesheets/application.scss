@@ -13,3 +13,5 @@
  *= require_tree .
  *= require_self
  */
+
+.has-bg-img { background: asset_url('logo-data.png') center center; background-size:cover; }
